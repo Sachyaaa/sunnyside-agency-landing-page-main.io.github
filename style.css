@@ -1,0 +1,416 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* transition: all 0.5s ease-in; */
+}
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    height: auto;
+}
+color{
+    color: hsl(7, 99%, 70%);
+    color: hsl(51, 100%, 49%);
+    color: hsl(167, 40%, 24%);
+    color: hsl(198, 62%, 26%);
+    color: hsl(168, 34%, 41%);
+    color: hsl(212, 27%, 19%);
+    color: hsl(213, 9%, 39%);
+    color: hsl(232, 10%, 55%);
+    color: hsl(210, 4%, 67%);
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    
+}
+.logo{
+    margin-left: 20px;
+}
+.nav-items ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+#contact a{
+    background-color: #fff;
+    color: black !important;
+    ;
+    padding: 9px 20px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+
+}
+#contact a:hover{
+    background-color: rgba(255, 255, 255, 0.281);
+    color: #fff !important;
+}
+
+.nav-items ul li{
+    list-style: none;
+    margin: auto 20px;
+    color: #fff;
+    /* overflow: scroll; */
+}
+.nav-items a{
+    text-decoration: none;
+    color: #fff;
+    z-index: 1;
+    padding: 10px auto;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+header h1{
+    color: #fff;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 17vh;
+}
+.arrow{
+    display: block;
+    margin: auto;
+    height: 100px;
+    margin-top: 10%;
+}
+main{
+    height: auto;
+    width: 100%;
+    height: auto;
+}
+main img{
+    width: 50vw;
+    height: 100%;
+}
+.egg,.stand{
+    display: flex;
+    margin: 0;
+    height: 500px;
+}
+.egg-text, .stand-text{
+    
+    text-align: left;
+    margin: 100px;
+    margin-right: 60px;
+    
+}
+.egg-text h2, .stand-text h2{
+    font-family: 'Fraunces', serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: hsl(212, 27%, 19%);
+}
+.egg-text p, .stand-text p{
+    margin: 20px 0;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    color: hsl(232, 10%, 55%);
+    line-height: 1.6rem;
+}
+.egg-text span, .stand-text span{
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    color: hsl(213, 9%, 39%);
+    cursor: pointer;
+    position: relative;
+    
+}
+.egg-text span{
+    box-shadow:inset 0px -7px 3px  hsl(51, 100%, 49%, 0.5);
+}
+.egg-text span:hover{
+    box-shadow:inset 0px -7px 3px  hsl(51, 100%, 49%, 1);
+}
+.stand-text span{
+    box-shadow: inset 0px -7px 3px  hsl(7, 99%, 70%,0.5);
+}
+.stand-text span:hover{
+    box-shadow: inset 0px -7px 3px  hsl(7, 99%, 70%,1);
+}
+.stand{
+    flex-direction: row-reverse;
+}
+.cherry{
+    display: flex;
+    width: 100vw;
+    
+}
+.graphic, .Photography{
+    width: 50%;
+    height: 500px;
+    overflow: hidden;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.graphic{
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: hsl(167, 40%, 24%);
+}
+.Photography{
+    background-image: url(images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: hsl(198, 62%, 26%);
+}
+.graphic h3, .Photography h3{
+    margin-top: 50%;
+    font-size: 26px;
+}
+.graphic p, .Photography p{
+    width: 340px;
+    margin: 20px auto;
+}
+.review{
+    height: 80vh;
+    margin-top: 180px;
+    
+}
+.review h4{
+    color: hsl(210, 4%, 67%);
+    text-align: center;
+    
+    text-transform: uppercase;
+}
+.client{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.client img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin: 54px 0;
+}
+.client-1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 28%;
+    flex-direction: column;
+    margin: 0 14px;
+    
+  
+    /* font-weight: 300; */
+    text-align: center;
+}
+.client-1 p{
+    font-size: 14px;
+    color: hsl(213, 9%, 39%,0.9);
+    font-family: 'Barlow', sans-serif;
+    line-height: 22px;
+    font-weight: 600;
+}
+.client-1 span{
+    font-weight: 800;
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+    margin: 50px 0 10px 0;
+}
+.client-1 small{
+    color: hsl(232, 10%, 55%,0.5);
+    font-weight: 300;
+    font-family: 'Barlow', sans-serif;
+    font-size: 11px;
+}
+.images{
+    display: flex;
+    width: 100vw;
+
+}
+.images img{
+    width: 25%;
+}
+footer{
+    height: auto;
+    background-color: rgba(130, 235, 214, 0.925);
+    padding: 50px;
+}
+.footer-logo{
+    
+    display: block;
+    margin:  auto;
+}
+.nav, .icons{
+    display: flex;
+    justify-content: space-evenly;
+    color: hsl(168, 34%, 41%);
+    font-weight: 400;
+    width: 440px;
+    align-items: center;
+    margin: 30px auto;
+    cursor: pointer;
+}
+.icons{
+    width: 340px;
+    margin: 30px auto;
+}
+.nav span:hover{
+   color: #fff;
+}
+.icons img:hover{
+    position: relative;
+    top: -10px;
+    transition: all 0.5s;
+    box-shadow: 0px 5px 10px #fff;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.humberger-nav{
+    width: 86%;
+    height: auto;
+    background-color: #fff;
+    margin: auto 20px;
+    position: relative;
+    display: none;
+}
+.humberger-nav::before{
+    content: "";
+    position:absolute;
+    margin-top: -20px;
+    margin-left: calc(100% - 50px);
+    width: 0px;
+    height: 0px;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+    border-right:50px solid #fff; 
+   
+  }
+.humberger-nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.humberger-nav ul li{
+    list-style: none;
+    display: block;
+    margin:  16px auto;
+    padding: 30px auto;
+    padding-top: 8.4px;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    text-justify:inter-ideograph;
+    transition: all 0s;
+}
+.humberger-nav ul li:hover{
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 50px;
+    color: hsl(0, 0%, 0%);
+    font-weight: 900;
+    font-family: 'Barlow', serif;
+}
+.humberger-nav a{
+    text-decoration: none;
+    color: hsl(213, 9%, 39%);
+}
+
+
+@media (max-width:440px){
+    .hamburger{
+        display: block;
+        
+    }
+    .nav-items ul{
+        display: none;
+    }
+    header{
+        background-position: center;
+        background-size: 190vw 100vh;
+        /* height: 80vh; */
+    }
+    main{
+        height: auto;
+    }
+    .cherry{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .graphic,.Photography{
+        width: 100vw;
+        background-position: center;
+    }
+    .graphic h3, .Photography h3{
+        margin-top: 90%;
+    }
+    .egg, .stand{
+        flex-direction: column-reverse;
+        position: relative;
+        height: auto;
+        
+    }
+    .stand-text,.egg-text{
+        width: auto;
+        position: relative;
+        height: auto;
+        margin: 30px;
+        text-align: center;
+        position: relative;
+    }
+    main img{
+        width: 100%;
+        height: 305px;
+    }
+    .review{
+        height: auto;
+        margin: 60px auto;
+    }
+    
+    .client{
+        flex-direction: column;
+        align-items: center;
+    }
+    .client-1{
+        width: 90%;
+    }
+    .client-1 p{
+        line-height: 30px;
+    }
+    .client-1 img{
+        
+        margin: 23px;
+        margin-top: 54px;
+    }
+    .client-1 span{
+        margin-top: 23px;
+    } 
+    .images{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }
+    .images img{
+        width: 100%;
+        height: 50vw;
+    }
+    .icons, .nav{
+        width: auto;
+    }
+}
